@@ -1,0 +1,160 @@
+body {
+
+    margin: 0;
+    font-family: "Courier New", monospace;
+    background: #1b1b1b;
+    color: #e6e6e6;
+    line-height: 1.6;
+
+}
+
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #333;
+
+}
+
+
+.logo {
+
+    font-size: 18px;
+    letter-spacing: 2px;
+
+}
+
+
+.nav-links {
+
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+
+
+.nav-links a {
+
+    text-decoration: none;
+    color: #cfcfcf;
+
+}
+
+
+.nav-links a:hover {
+
+    color: white;
+
+}
+
+
+.hero {
+
+    max-width: 700px;
+    margin: auto;
+    padding: 120px 20px;
+    text-align: center;
+
+}
+
+
+.profile {
+
+    width: 220px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 30px;
+
+}
+
+
+h2 {
+
+    font-size: 28px;
+    font-weight: normal;
+
+}
+
+
+p {
+
+    color: #b5b5b5;
+
+}
+
+
+.btn {
+
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.btn:hover {
+
+    background: #2a2a2a;
+
+}
+
+
+.projects {
+
+    max-width: 700px;
+    margin: auto;
+    padding: 80px 20px;
+
+}
+
+
+.project-card {
+
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 6px;
+
+}
+
+
+.about,
+.contact {
+
+    max-width: 700px;
+    margin: auto;
+    padding: 80px 20px;
+
+}
+
+
+footer {
+
+    text-align: center;
+    padding: 40px;
+    font-size: 12px;
+    color: #777;
+    border-top: 1px solid #333;
+
+}
+
+
+#music-btn {
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #111;
+    color: white;
+    border: 1px solid #555;
+    padding: 10px;
+    cursor: pointer;
+
+}
